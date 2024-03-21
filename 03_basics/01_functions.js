@@ -26,5 +26,29 @@ else{
 }
 }
 
-// console.log(loginUserMessage("Yash"));
+// console.log(login("Yash"));
 console.log(loginUserMessage("Yash"));  //OverRight
+
+function calculateCartPrice(...num1){
+    return(num1)
+}
+// console.log(calculateCartPrice(333,33,22,1))
+
+const user = {
+    username: "yash",
+    price: 99
+}
+
+function handleObject(anyobject){
+    console.log(`User is ${anyobject.username} and price is ${anyobject.price}`);
+}
+handleObject(user)
+
+const mynewArray = [22, 234, 345]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+// console.log(returnSecondValue(mynewArray))
+console.log(returnSecondValue([300, 200, 666]));
